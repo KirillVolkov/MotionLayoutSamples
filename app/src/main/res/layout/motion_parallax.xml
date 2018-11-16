@@ -1,0 +1,22 @@
+<com.pixelplex.motionlayoutsample.ViewpagerHeader xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#130d5e"
+    app:layoutDescription="@xml/scene_15">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/parallax_back"
+        android:elevation="4dp" />
+
+    <ImageView
+        android:id="@+id/moon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/moon" />
+
+</com.pixelplex.motionlayoutsample.ViewpagerHeader>

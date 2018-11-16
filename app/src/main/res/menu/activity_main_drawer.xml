@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/simple_motion"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Simple Motion" />
+        <item
+            android:id="@+id/simple_motion_attrs"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Simple Motion Attrs" />
+        <item
+            android:id="@+id/simple_motion_custom_attrs"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Simple Motion Custom Attrs" />
+        <item
+            android:id="@+id/image_view_filter"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Image View Filter" />
+        <item
+            android:id="@+id/image_view_filter_advanced"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Image View Filter Advanced" />
+    </group>
+
+    <item android:title="Key Frame">
+        <menu>
+            <item
+                android:id="@+id/key_frame"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="KeyFrame Sample" />
+            <item
+                android:id="@+id/key_frame_attrs"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="KeyFrame Attrs Sample" />
+            <item
+                android:id="@+id/coordinator_sample"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Coordinator Layout Sample" />
+            <item
+                android:id="@+id/viewpager_sample"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="ViewPager Sample" />
+            <item
+                android:id="@+id/lottie_sample"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="ViewPager Lottie Sample" />
+        </menu>
+    </item>
+
+</menu>
